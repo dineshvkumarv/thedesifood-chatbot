@@ -122,6 +122,22 @@ const INTENTS = [
       "Tea: Popular choices on TheDesiFood include brands like Organic India and Teacurry, plus other Indian tea brands under Beverages → Tea. Choose based on flavour and health preference."
   },
 
+  // ----- Product categories (overview) -----
+  {
+    id: "product_categories",
+    keywords: [
+      "product",
+      "products",
+      "what do you have",
+      "what products",
+      "categories",
+      "items you sell",
+      "what do you sell"
+    ],
+    answer:
+      "We offer a wide range of Indian grocery and food products, including:\n\n• Ghee & Oils\n• Rice & Atta (flour)\n• Dal & Pulses\n• Spices & Masalas\n• Tea & Beverages\n• Snacks & Namkeen\n• Pickles & Ready-to-eat items\n• Organic & Health products\n\nYou can browse all categories on TheDesiFood under the Staples, Beverages, Snacks, and Organic sections."
+  },
+
   // ----- Special-diet / organic -----
   {
     id: "vegan",
